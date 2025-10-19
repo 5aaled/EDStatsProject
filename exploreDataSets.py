@@ -120,10 +120,6 @@ plt.title("Spearman Correlation Between Indicators")
 #plt.show()
 
 
-summary = EDStatsData_groupedby_topic.groupby("Topic")["Indic_avg"].mean().sort_values(ascending=False)
-
-print("lets move to the summry ")
-print(summary)
 
 
 
